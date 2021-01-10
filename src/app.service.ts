@@ -1,8 +1,13 @@
-import { Injectable } from '@nestjs/common';
+import { HttpService, Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  constructor(private httpService: HttpService) {}
+
+  async getProduct(id: string) {
+    const response = await this.httpService
+      .get(`https://world.openfoodfacts.org/api/v0/product/${id}.json`)
+      .toPromise();
+    return (response as any).data.product;
   }
 }

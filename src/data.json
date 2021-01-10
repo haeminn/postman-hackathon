@@ -1,0 +1,2775 @@
+[
+  {
+    "name": "Wheat & Rye (Bread)",
+    "tags": [
+      "wheat",
+      "rye",
+      "bread",
+      "wheat flour",
+      "flour",
+      "enriched flour",
+      "bleached white flour",
+      "white flour"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1,
+        "10th_pct": 1.1,
+        "mean": 3.9,
+        "median": 2.7,
+        "90th_pct": 7.9,
+        "95th_pct": 10
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.8,
+        "mean": 1.6,
+        "median": 1.3,
+        "90th_pct": 2.3,
+        "95th_pct": 3.1
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.8,
+        "mean": 1.6,
+        "median": 1.3,
+        "90th_pct": 2.4,
+        "95th_pct": 3.1
+      },
+      "acidifying_emissions": {
+        "5th_pct": 5.9,
+        "10th_pct": 6.7,
+        "mean": 13.4,
+        "median": 13.3,
+        "90th_pct": 20.2,
+        "95th_pct": 25
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1,
+        "10th_pct": 2.3,
+        "mean": 7.2,
+        "median": 5.4,
+        "90th_pct": 13.4,
+        "95th_pct": 18.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 2,
+        "10th_pct": 2,
+        "mean": 648,
+        "median": 419,
+        "90th_pct": 1081,
+        "95th_pct": 3369
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 3,
+        "10th_pct": 5,
+        "mean": 33386,
+        "median": 12822,
+        "90th_pct": 54986,
+        "95th_pct": 225768
+      }
+    }
+  },
+  {
+    "name": "Maize (Meal)",
+    "tags": ["corn", "cornmeal", "maize"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1,
+        "10th_pct": 1.1,
+        "mean": 2.9,
+        "median": 1.8,
+        "90th_pct": 5.7,
+        "95th_pct": 9
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.7,
+        "mean": 1.7,
+        "median": 1.2,
+        "90th_pct": 2.3,
+        "95th_pct": 3.5
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.7,
+        "mean": 1.7,
+        "median": 1.2,
+        "90th_pct": 2.3,
+        "95th_pct": 3.5
+      },
+      "acidifying_emissions": {
+        "5th_pct": 5.6,
+        "10th_pct": 5.9,
+        "mean": 11.7,
+        "median": 10.2,
+        "90th_pct": 20.9,
+        "95th_pct": 22.8
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1.2,
+        "10th_pct": 1.3,
+        "mean": 4,
+        "median": 2.4,
+        "90th_pct": 8.1,
+        "95th_pct": 12.6
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 216,
+        "median": 44,
+        "90th_pct": 531,
+        "95th_pct": 598
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 10863,
+        "median": 350,
+        "90th_pct": 24375,
+        "95th_pct": 28215
+      }
+    }
+  },
+  {
+    "name": "Barley (Beer)",
+    "tags": ["barley", "beer"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.3,
+        "mean": 1.1,
+        "median": 0.9,
+        "90th_pct": 2.4,
+        "95th_pct": 2.9
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.7,
+        "mean": 1.2,
+        "median": 1.2,
+        "90th_pct": 1.6,
+        "95th_pct": 1.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.7,
+        "mean": 1.2,
+        "median": 1.2,
+        "90th_pct": 1.6,
+        "95th_pct": 1.8
+      },
+      "acidifying_emissions": {
+        "5th_pct": 5.2,
+        "10th_pct": 5.4,
+        "mean": 6.6,
+        "median": 6.1,
+        "90th_pct": 7.5,
+        "95th_pct": 8.2
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1.1,
+        "10th_pct": 1.2,
+        "mean": 2.3,
+        "median": 1.8,
+        "90th_pct": 3.8,
+        "95th_pct": 4.8
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 6,
+        "10th_pct": 7,
+        "mean": 17,
+        "median": 7,
+        "90th_pct": 11,
+        "95th_pct": 48
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 8,
+        "10th_pct": 10,
+        "mean": 696,
+        "median": 27,
+        "90th_pct": 291,
+        "95th_pct": 1621
+      }
+    }
+  },
+  {
+    "name": "Oatmeal",
+    "tags": ["oatmeal", "oat flour", "oats", "oat"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 2.6,
+        "10th_pct": 2.9,
+        "mean": 7.6,
+        "median": 7.7,
+        "90th_pct": 12.9,
+        "95th_pct": 14
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.8,
+        "10th_pct": 0.9,
+        "mean": 2.5,
+        "median": 2.6,
+        "90th_pct": 4.1,
+        "95th_pct": 4.3
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.8,
+        "10th_pct": 0.9,
+        "mean": 2.5,
+        "median": 2.6,
+        "90th_pct": 4.1,
+        "95th_pct": 4.3
+      },
+      "acidifying_emissions": {
+        "5th_pct": 6.2,
+        "10th_pct": 7.5,
+        "mean": 10.7,
+        "median": 9.6,
+        "90th_pct": 14.8,
+        "95th_pct": 17.4
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 5.8,
+        "10th_pct": 6.7,
+        "mean": 11.2,
+        "median": 10.1,
+        "90th_pct": 16.3,
+        "95th_pct": 24.3
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 482,
+        "median": 670,
+        "90th_pct": 804,
+        "95th_pct": 850
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 18786,
+        "median": 24456,
+        "90th_pct": 29352,
+        "95th_pct": 31015
+      }
+    }
+  },
+  {
+    "name": "Rice",
+    "tags": ["rice", "rice flour"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1,
+        "10th_pct": 1.1,
+        "mean": 2.8,
+        "median": 2.2,
+        "90th_pct": 6.2,
+        "95th_pct": 7.2
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 1.2,
+        "10th_pct": 1.5,
+        "mean": 4.5,
+        "median": 3.7,
+        "90th_pct": 8.8,
+        "95th_pct": 10.3
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 1.1,
+        "10th_pct": 1.3,
+        "mean": 3.8,
+        "median": 3.1,
+        "90th_pct": 7.4,
+        "95th_pct": 8.5
+      },
+      "acidifying_emissions": {
+        "5th_pct": 8.8,
+        "10th_pct": 9.8,
+        "mean": 27.2,
+        "median": 18.6,
+        "90th_pct": 62.8,
+        "95th_pct": 75
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 2.9,
+        "10th_pct": 3.4,
+        "mean": 35.1,
+        "median": 9.3,
+        "90th_pct": 135.8,
+        "95th_pct": 156
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 2248,
+        "median": 1575,
+        "90th_pct": 3936,
+        "95th_pct": 10574
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 2,
+        "mean": 49576,
+        "median": 4626,
+        "90th_pct": 115317,
+        "95th_pct": 191274
+      }
+    }
+  },
+  {
+    "name": "Potatoes",
+    "tags": ["potatoes", "potato", "potato starch"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.4,
+        "10th_pct": 0.4,
+        "mean": 0.9,
+        "median": 0.8,
+        "90th_pct": 1.4,
+        "95th_pct": 1.7
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.1,
+        "10th_pct": 0.2,
+        "mean": 0.5,
+        "median": 0.5,
+        "90th_pct": 0.6,
+        "95th_pct": 0.7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.1,
+        "10th_pct": 0.2,
+        "mean": 0.5,
+        "median": 0.5,
+        "90th_pct": 0.6,
+        "95th_pct": 0.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.3,
+        "10th_pct": 2.6,
+        "mean": 3.9,
+        "median": 3.6,
+        "90th_pct": 5.3,
+        "95th_pct": 6.9
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.6,
+        "mean": 3.5,
+        "median": 4.4,
+        "90th_pct": 6.1,
+        "95th_pct": 6.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 1,
+        "mean": 59,
+        "median": 3,
+        "90th_pct": 133,
+        "95th_pct": 236
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 8,
+        "mean": 2754,
+        "median": 78,
+        "90th_pct": 8910,
+        "95th_pct": 8978
+      }
+    }
+  },
+  {
+    "name": "Cassava",
+    "tags": ["cassava"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.8,
+        "mean": 1.8,
+        "median": 1.3,
+        "90th_pct": 3.2,
+        "95th_pct": 3.3
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.4,
+        "mean": 1.3,
+        "median": 1.1,
+        "90th_pct": 2.1,
+        "95th_pct": 2.2
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 1.3,
+        "median": 1,
+        "90th_pct": 2.1,
+        "95th_pct": 2.2
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.6,
+        "10th_pct": 2.7,
+        "mean": 3.4,
+        "median": 3.2,
+        "90th_pct": 4.8,
+        "95th_pct": 5.1
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.5,
+        "mean": 0.7,
+        "median": 0.7,
+        "90th_pct": 1,
+        "95th_pct": 1
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 0,
+        "median": 0,
+        "90th_pct": 0,
+        "95th_pct": 0
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 0,
+        "median": 0,
+        "90th_pct": 0,
+        "95th_pct": 0
+      }
+    }
+  },
+  {
+    "name": "Cane Sugar",
+    "tags": ["sugar", "cane sugar", "white sugar", "brown sugar"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1.1,
+        "10th_pct": 1.2,
+        "mean": 2,
+        "median": 1.8,
+        "90th_pct": 3.1,
+        "95th_pct": 3.5
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.9,
+        "mean": 3.2,
+        "median": 3.2,
+        "90th_pct": 5.1,
+        "95th_pct": 5.6
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.9,
+        "mean": 3.2,
+        "median": 3.2,
+        "90th_pct": 5.1,
+        "95th_pct": 5.6
+      },
+      "acidifying_emissions": {
+        "5th_pct": 5.4,
+        "10th_pct": 7.9,
+        "mean": 18,
+        "median": 18,
+        "90th_pct": 28.1,
+        "95th_pct": 30.8
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 3.3,
+        "10th_pct": 4,
+        "mean": 16.9,
+        "median": 11.2,
+        "90th_pct": 40.9,
+        "95th_pct": 42.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 7,
+        "10th_pct": 8,
+        "mean": 620,
+        "median": 8,
+        "90th_pct": 2520,
+        "95th_pct": 3567
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 14,
+        "10th_pct": 15,
+        "mean": 16439,
+        "median": 15,
+        "90th_pct": 34108,
+        "95th_pct": 34891
+      }
+    }
+  },
+  {
+    "name": "Beet Sugar",
+    "tags": ["beet sugar"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1.1,
+        "10th_pct": 1.2,
+        "mean": 1.8,
+        "median": 1.5,
+        "90th_pct": 3.1,
+        "95th_pct": 3.3
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 1,
+        "10th_pct": 1.2,
+        "mean": 1.8,
+        "median": 1.8,
+        "90th_pct": 2.4,
+        "95th_pct": 2.6
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 1,
+        "10th_pct": 1.2,
+        "mean": 1.8,
+        "median": 1.8,
+        "90th_pct": 2.4,
+        "95th_pct": 2.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 4.4,
+        "10th_pct": 4.4,
+        "mean": 12.6,
+        "median": 12.4,
+        "90th_pct": 18.3,
+        "95th_pct": 20.6
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 2.1,
+        "10th_pct": 2.1,
+        "mean": 5.4,
+        "median": 4.3,
+        "90th_pct": 14.1,
+        "95th_pct": 16.9
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 10,
+        "10th_pct": 12,
+        "mean": 218,
+        "median": 12,
+        "90th_pct": 506,
+        "95th_pct": 1656
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 12,
+        "10th_pct": 15,
+        "mean": 9493,
+        "median": 115,
+        "90th_pct": 22816,
+        "95th_pct": 76242
+      }
+    }
+  },
+  {
+    "name": "Other Pulses",
+    "tags": ["other pulses"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 4.1,
+        "10th_pct": 9.9,
+        "mean": 15.6,
+        "median": 12.2,
+        "90th_pct": 41.3,
+        "95th_pct": 41.9
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.9,
+        "10th_pct": 1,
+        "mean": 1.8,
+        "median": 1.4,
+        "90th_pct": 3.8,
+        "95th_pct": 4
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.9,
+        "10th_pct": 1,
+        "mean": 1.8,
+        "median": 1.4,
+        "90th_pct": 3.7,
+        "95th_pct": 4
+      },
+      "acidifying_emissions": {
+        "5th_pct": 5.7,
+        "10th_pct": 10.9,
+        "mean": 22.1,
+        "median": 19,
+        "90th_pct": 33.8,
+        "95th_pct": 36.7
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1.6,
+        "10th_pct": 1.6,
+        "mean": 17.1,
+        "median": 13.8,
+        "90th_pct": 46.6,
+        "95th_pct": 50.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 436,
+        "median": 0,
+        "90th_pct": 1250,
+        "95th_pct": 2201
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 22477,
+        "median": 0,
+        "90th_pct": 45615,
+        "95th_pct": 106154
+      }
+    }
+  },
+  {
+    "name": "Peas",
+    "tags": ["peas", "chickpeas", "chickpea"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 2.3,
+        "10th_pct": 2.8,
+        "mean": 7.5,
+        "median": 6.7,
+        "90th_pct": 14.2,
+        "95th_pct": 20.5
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.6,
+        "mean": 1,
+        "median": 0.8,
+        "90th_pct": 1.7,
+        "95th_pct": 1.9
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.6,
+        "mean": 1,
+        "median": 0.8,
+        "90th_pct": 1.7,
+        "95th_pct": 1.9
+      },
+      "acidifying_emissions": {
+        "5th_pct": 3.2,
+        "10th_pct": 3.6,
+        "mean": 8.5,
+        "median": 10.3,
+        "90th_pct": 10.9,
+        "95th_pct": 11.1
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.8,
+        "mean": 7.5,
+        "median": 1.7,
+        "90th_pct": 33.6,
+        "95th_pct": 33.7
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 397,
+        "median": 0,
+        "90th_pct": 3100,
+        "95th_pct": 3584
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 27948,
+        "median": 0,
+        "90th_pct": 228332,
+        "95th_pct": 263997
+      }
+    }
+  },
+  {
+    "name": "Nuts",
+    "tags": [
+      "almonds",
+      "brazil nuts",
+      "cashews",
+      "chestnuts",
+      "filberts",
+      "hazelnuts",
+      "hickory nuts",
+      "macadamia nuts",
+      "pecans",
+      "pine nuts",
+      "pistachios",
+      "walnuts"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 4.2,
+        "10th_pct": 4.5,
+        "mean": 13,
+        "median": 8.7,
+        "90th_pct": 26.6,
+        "95th_pct": 26.6
+      },
+      "ghg_emissions_1": {
+        "5th_pct": -4,
+        "10th_pct": -3.7,
+        "mean": 0.4,
+        "median": -1.3,
+        "90th_pct": 3.8,
+        "95th_pct": 10.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": -4,
+        "10th_pct": -3.7,
+        "mean": 0.4,
+        "median": -1.3,
+        "90th_pct": 3.8,
+        "95th_pct": 10.2
+      },
+      "acidifying_emissions": {
+        "5th_pct": 19.1,
+        "10th_pct": 20.6,
+        "mean": 45.2,
+        "median": 35,
+        "90th_pct": 67,
+        "95th_pct": 95.9
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 6.6,
+        "10th_pct": 8,
+        "mean": 19.2,
+        "median": 14.5,
+        "90th_pct": 40,
+        "95th_pct": 47.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 4134,
+        "median": 1823,
+        "90th_pct": 9107,
+        "95th_pct": 11384
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 229890,
+        "median": 129364,
+        "90th_pct": 646135,
+        "95th_pct": 807659
+      }
+    }
+  },
+  {
+    "name": "Groundnuts",
+    "tags": ["peanuts", "peanut", "groundnuts"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 4.2,
+        "10th_pct": 4.7,
+        "mean": 9.1,
+        "median": 7.9,
+        "90th_pct": 15.4,
+        "95th_pct": 15.4
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 1.4,
+        "10th_pct": 1.6,
+        "mean": 3.2,
+        "median": 3.3,
+        "90th_pct": 5.8,
+        "95th_pct": 6.2
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 1.4,
+        "10th_pct": 1.6,
+        "mean": 3.2,
+        "median": 3.3,
+        "90th_pct": 5.8,
+        "95th_pct": 6.1
+      },
+      "acidifying_emissions": {
+        "5th_pct": 10.1,
+        "10th_pct": 10.4,
+        "mean": 22.6,
+        "median": 16.4,
+        "90th_pct": 55.7,
+        "95th_pct": 56.8
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 5.7,
+        "10th_pct": 5.8,
+        "mean": 14.1,
+        "median": 17.1,
+        "90th_pct": 19.7,
+        "95th_pct": 21
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 54,
+        "10th_pct": 694,
+        "mean": 1852,
+        "median": 900,
+        "90th_pct": 6525,
+        "95th_pct": 6525
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 2377,
+        "10th_pct": 2435,
+        "mean": 61798,
+        "median": 44352,
+        "90th_pct": 195135,
+        "95th_pct": 195135
+      }
+    }
+  },
+  {
+    "name": "Soymilk",
+    "tags": ["soymilk"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 0.7,
+        "median": 0.6,
+        "90th_pct": 0.9,
+        "95th_pct": 1.1
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.6,
+        "mean": 1,
+        "median": 0.9,
+        "90th_pct": 1.5,
+        "95th_pct": 1.7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.6,
+        "mean": 1,
+        "median": 0.9,
+        "90th_pct": 1.5,
+        "95th_pct": 1.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.1,
+        "10th_pct": 2.2,
+        "mean": 2.6,
+        "median": 2.5,
+        "90th_pct": 3.1,
+        "95th_pct": 3.3
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.5,
+        "mean": 1.1,
+        "median": 1.2,
+        "90th_pct": 1.6,
+        "95th_pct": 1.6
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 1,
+        "10th_pct": 1,
+        "mean": 28,
+        "median": 1,
+        "90th_pct": 146,
+        "95th_pct": 159
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 2,
+        "10th_pct": 2,
+        "mean": 956,
+        "median": 6,
+        "90th_pct": 5301,
+        "95th_pct": 5769
+      }
+    }
+  },
+  {
+    "name": "Tofu",
+    "tags": ["tofu"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1.6,
+        "10th_pct": 1.8,
+        "mean": 3.5,
+        "median": 3.4,
+        "90th_pct": 4.9,
+        "95th_pct": 5.9
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 1.4,
+        "10th_pct": 1.6,
+        "mean": 3.2,
+        "median": 2.6,
+        "90th_pct": 5.6,
+        "95th_pct": 7.3
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 1.4,
+        "10th_pct": 1.6,
+        "mean": 3.1,
+        "median": 2.6,
+        "90th_pct": 5.5,
+        "95th_pct": 7.2
+      },
+      "acidifying_emissions": {
+        "5th_pct": 5,
+        "10th_pct": 5.1,
+        "mean": 6.7,
+        "median": 6,
+        "90th_pct": 9,
+        "95th_pct": 9.9
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 2.9,
+        "10th_pct": 2.9,
+        "mean": 6.2,
+        "median": 6.6,
+        "90th_pct": 9.1,
+        "95th_pct": 10.3
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 6,
+        "10th_pct": 6,
+        "mean": 149,
+        "median": 7,
+        "90th_pct": 778,
+        "95th_pct": 864
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 12,
+        "10th_pct": 12,
+        "mean": 5113,
+        "median": 32,
+        "90th_pct": 28227,
+        "95th_pct": 31484
+      }
+    }
+  },
+  {
+    "name": "Soybean Oil",
+    "tags": ["soybean oil"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 4.8,
+        "10th_pct": 5.3,
+        "mean": 10.5,
+        "median": 9.6,
+        "90th_pct": 14.6,
+        "95th_pct": 17.5
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.4,
+        "mean": 6.3,
+        "median": 3.9,
+        "90th_pct": 13.4,
+        "95th_pct": 18.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.4,
+        "mean": 6.2,
+        "median": 3.8,
+        "90th_pct": 12.8,
+        "95th_pct": 18.6
+      },
+      "acidifying_emissions": {
+        "5th_pct": 11.2,
+        "10th_pct": 11.6,
+        "mean": 15.7,
+        "median": 15,
+        "90th_pct": 20.4,
+        "95th_pct": 23
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 2.6,
+        "10th_pct": 2.6,
+        "mean": 11.7,
+        "median": 14.4,
+        "90th_pct": 20.2,
+        "95th_pct": 20.9
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 2,
+        "10th_pct": 2,
+        "mean": 415,
+        "median": 2,
+        "90th_pct": 2245,
+        "95th_pct": 2487
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 3,
+        "10th_pct": 3,
+        "mean": 14888,
+        "median": 8,
+        "90th_pct": 81881,
+        "95th_pct": 90941
+      }
+    }
+  },
+  {
+    "name": "Palm Oil",
+    "tags": ["palm oil", "palm kernel oil", "fractionated palm oil"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 1.4,
+        "10th_pct": 1.7,
+        "mean": 2.4,
+        "median": 2.4,
+        "90th_pct": 3,
+        "95th_pct": 3.3
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 2.8,
+        "10th_pct": 3.6,
+        "mean": 7.3,
+        "median": 7.2,
+        "90th_pct": 12,
+        "95th_pct": 13.1
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 2.4,
+        "10th_pct": 3.4,
+        "mean": 7.2,
+        "median": 7,
+        "90th_pct": 12,
+        "95th_pct": 13
+      },
+      "acidifying_emissions": {
+        "5th_pct": 7.5,
+        "10th_pct": 14.6,
+        "mean": 17.5,
+        "median": 17.7,
+        "90th_pct": 22.1,
+        "95th_pct": 22.9
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 2,
+        "10th_pct": 5.2,
+        "mean": 10.7,
+        "median": 10.3,
+        "90th_pct": 17.1,
+        "95th_pct": 17.1
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 6,
+        "10th_pct": 6,
+        "mean": 6,
+        "median": 6,
+        "90th_pct": 6,
+        "95th_pct": 7
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 4,
+        "10th_pct": 4,
+        "mean": 36,
+        "median": 35,
+        "90th_pct": 67,
+        "95th_pct": 67
+      }
+    }
+  },
+  {
+    "name": "Sunflower Oil",
+    "tags": ["sunflower oil"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 7.5,
+        "10th_pct": 8.4,
+        "mean": 17.7,
+        "median": 16.3,
+        "90th_pct": 27,
+        "95th_pct": 29.7
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.5,
+        "mean": 3.6,
+        "median": 3.5,
+        "90th_pct": 4.6,
+        "95th_pct": 4.9
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.4,
+        "mean": 3.6,
+        "median": 3.5,
+        "90th_pct": 4.6,
+        "95th_pct": 4.9
+      },
+      "acidifying_emissions": {
+        "5th_pct": 10.4,
+        "10th_pct": 10.8,
+        "mean": 28,
+        "median": 19.3,
+        "90th_pct": 61.2,
+        "95th_pct": 67.2
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 10.1,
+        "10th_pct": 11.7,
+        "mean": 50.7,
+        "median": 18.9,
+        "90th_pct": 175.7,
+        "95th_pct": 175.7
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 3,
+        "10th_pct": 3,
+        "mean": 1008,
+        "median": 10,
+        "90th_pct": 3841,
+        "95th_pct": 4037
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 2,
+        "10th_pct": 6,
+        "mean": 36369,
+        "median": 237,
+        "90th_pct": 158308,
+        "95th_pct": 178519
+      }
+    }
+  },
+  {
+    "name": "Rapeseed Oil",
+    "tags": ["rapeseed oil"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 5,
+        "10th_pct": 5.2,
+        "mean": 10.6,
+        "median": 9.4,
+        "90th_pct": 19,
+        "95th_pct": 21
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.5,
+        "mean": 3.8,
+        "median": 3.5,
+        "90th_pct": 4.6,
+        "95th_pct": 7.2
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.5,
+        "mean": 3.8,
+        "median": 3.5,
+        "90th_pct": 4.7,
+        "95th_pct": 7.5
+      },
+      "acidifying_emissions": {
+        "5th_pct": 14.7,
+        "10th_pct": 15.1,
+        "mean": 28.5,
+        "median": 23.2,
+        "90th_pct": 49.5,
+        "95th_pct": 61.1
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 6.4,
+        "10th_pct": 7.2,
+        "mean": 19.2,
+        "median": 16.4,
+        "90th_pct": 35.5,
+        "95th_pct": 55.7
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 1,
+        "10th_pct": 1,
+        "mean": 238,
+        "median": 1,
+        "90th_pct": 764,
+        "95th_pct": 778
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 2,
+        "10th_pct": 3,
+        "mean": 10594,
+        "median": 14,
+        "90th_pct": 34755,
+        "95th_pct": 35400
+      }
+    }
+  },
+  {
+    "name": "Olive Oil",
+    "tags": ["olive oil", "extra virgin olive oil"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 7.9,
+        "10th_pct": 7.9,
+        "mean": 26.3,
+        "median": 17.3,
+        "90th_pct": 36.3,
+        "95th_pct": 36.3
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 2.1,
+        "10th_pct": 2.9,
+        "mean": 5.4,
+        "median": 5.1,
+        "90th_pct": 7.6,
+        "95th_pct": 10.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 2.1,
+        "10th_pct": 2.9,
+        "mean": 5.3,
+        "median": 5,
+        "90th_pct": 7.7,
+        "95th_pct": 10.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 18.8,
+        "10th_pct": 27.5,
+        "mean": 37.6,
+        "median": 33.9,
+        "90th_pct": 57.9,
+        "95th_pct": 62
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 5.8,
+        "10th_pct": 17.1,
+        "mean": 37.3,
+        "median": 39.1,
+        "90th_pct": 56.3,
+        "95th_pct": 61.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 9,
+        "10th_pct": 9,
+        "mean": 2142,
+        "median": 318,
+        "90th_pct": 6908,
+        "95th_pct": 6908
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 130,
+        "10th_pct": 130,
+        "mean": 177480,
+        "median": 24396,
+        "90th_pct": 621152,
+        "95th_pct": 621152
+      }
+    }
+  },
+  {
+    "name": "Tomatoes",
+    "tags": [
+      "tomatoes",
+      "tomato",
+      "tomato paste",
+      "diced tomato",
+      "tomato puree"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.1,
+        "10th_pct": 0.1,
+        "mean": 0.8,
+        "median": 0.2,
+        "90th_pct": 0.9,
+        "95th_pct": 5.6
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.4,
+        "10th_pct": 0.4,
+        "mean": 2.1,
+        "median": 0.7,
+        "90th_pct": 6,
+        "95th_pct": 12.6
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.4,
+        "10th_pct": 0.4,
+        "mean": 2,
+        "median": 0.7,
+        "90th_pct": 5.2,
+        "95th_pct": 12.3
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.9,
+        "10th_pct": 3.2,
+        "mean": 17.2,
+        "median": 5.2,
+        "90th_pct": 68,
+        "95th_pct": 83.4
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.8,
+        "mean": 7.5,
+        "median": 1.9,
+        "90th_pct": 32.1,
+        "95th_pct": 39.5
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 33,
+        "10th_pct": 48,
+        "mean": 370,
+        "median": 77,
+        "90th_pct": 1334,
+        "95th_pct": 1994
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 270,
+        "10th_pct": 385,
+        "mean": 5336,
+        "median": 4481,
+        "90th_pct": 8959,
+        "95th_pct": 11842
+      }
+    }
+  },
+  {
+    "name": "Onions & Leeks",
+    "tags": ["onions", "onion", "diced onion", "leeks", "leek"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.1,
+        "10th_pct": 0.1,
+        "mean": 0.4,
+        "median": 0.3,
+        "90th_pct": 0.6,
+        "95th_pct": 0.6
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 0.5,
+        "median": 0.4,
+        "90th_pct": 0.8,
+        "95th_pct": 0.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 0.5,
+        "median": 0.4,
+        "90th_pct": 0.8,
+        "95th_pct": 0.8
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.7,
+        "10th_pct": 2.8,
+        "mean": 3.6,
+        "median": 3.3,
+        "90th_pct": 4.9,
+        "95th_pct": 5
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1,
+        "10th_pct": 1.5,
+        "mean": 3.2,
+        "median": 1.6,
+        "90th_pct": 7.5,
+        "95th_pct": 7.5
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 1,
+        "10th_pct": 1,
+        "mean": 14,
+        "median": 2,
+        "90th_pct": 72,
+        "95th_pct": 76
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 48,
+        "10th_pct": 48,
+        "mean": 932,
+        "median": 57,
+        "90th_pct": 5007,
+        "95th_pct": 5222
+      }
+    }
+  },
+  {
+    "name": "Root Vegetables",
+    "tags": [
+      "carrots",
+      "carrot",
+      "beets",
+      "beet",
+      "parsnips",
+      "parsnip",
+      "radish",
+      "radishes",
+      "turnip"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.3,
+        "median": 0.3,
+        "90th_pct": 0.3,
+        "95th_pct": 0.5
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.4,
+        "median": 0.4,
+        "90th_pct": 0.6,
+        "95th_pct": 0.6
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.4,
+        "median": 0.4,
+        "90th_pct": 0.6,
+        "95th_pct": 0.6
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.4,
+        "mean": 2.9,
+        "median": 2.9,
+        "90th_pct": 3.3,
+        "95th_pct": 3.4
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.5,
+        "10th_pct": 0.5,
+        "mean": 1.6,
+        "median": 1,
+        "90th_pct": 2.5,
+        "95th_pct": 9.3
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 28,
+        "median": 10,
+        "90th_pct": 92,
+        "95th_pct": 93
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 929,
+        "median": 38,
+        "90th_pct": 6785,
+        "95th_pct": 6826
+      }
+    }
+  },
+  {
+    "name": "Brassicas",
+    "tags": ["brassicas"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.6,
+        "median": 0.3,
+        "90th_pct": 0.8,
+        "95th_pct": 2.3
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.5,
+        "median": 0.4,
+        "90th_pct": 1,
+        "95th_pct": 1.2
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.5,
+        "median": 0.4,
+        "90th_pct": 1,
+        "95th_pct": 1.2
+      },
+      "acidifying_emissions": {
+        "5th_pct": 3.9,
+        "10th_pct": 4.5,
+        "mean": 8.2,
+        "median": 8.8,
+        "90th_pct": 10.8,
+        "95th_pct": 11.3
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1.2,
+        "10th_pct": 1.6,
+        "mean": 5,
+        "median": 5.7,
+        "90th_pct": 7.8,
+        "95th_pct": 8.1
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 119,
+        "median": 55,
+        "90th_pct": 253,
+        "95th_pct": 642
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 8455,
+        "median": 2483,
+        "90th_pct": 19799,
+        "95th_pct": 60921
+      }
+    }
+  },
+  {
+    "name": "Other Vegetables",
+    "tags": [
+      "lettuce",
+      "broccoli",
+      "cauliflower",
+      "red pepper",
+      "green pepper",
+      "yellow pepper",
+      "orange pepper",
+      "zucchini",
+      "spinach",
+      "squash",
+      "pumpkin",
+      "okra",
+      "mushrooms",
+      "kale",
+      "cucumber",
+      "cabbage",
+      "brussel sprouts",
+      "garlic"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.4,
+        "median": 0.2,
+        "90th_pct": 0.8,
+        "95th_pct": 1.1
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.5,
+        "median": 0.4,
+        "90th_pct": 1,
+        "95th_pct": 1.1
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.5,
+        "median": 0.4,
+        "90th_pct": 1,
+        "95th_pct": 1.1
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.6,
+        "10th_pct": 2.9,
+        "mean": 6.4,
+        "median": 3.7,
+        "90th_pct": 6.6,
+        "95th_pct": 9.7
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.9,
+        "10th_pct": 1.1,
+        "mean": 2.3,
+        "median": 1.8,
+        "90th_pct": 2.5,
+        "95th_pct": 4.9
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 56,
+        "10th_pct": 56,
+        "mean": 103,
+        "median": 81,
+        "90th_pct": 168,
+        "95th_pct": 360
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 900,
+        "10th_pct": 2568,
+        "mean": 4911,
+        "median": 2940,
+        "90th_pct": 11098,
+        "95th_pct": 14549
+      }
+    }
+  },
+  {
+    "name": "Citrus Fruit",
+    "tags": [
+      "lemon",
+      "lime",
+      "orange",
+      "grapefruit",
+      "lemon juice",
+      "lime juice",
+      "orange juice",
+      "grapefruit juice"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.4,
+        "mean": 0.9,
+        "median": 0.7,
+        "90th_pct": 1.8,
+        "95th_pct": 1.8
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0,
+        "10th_pct": 0.1,
+        "mean": 0.4,
+        "median": 0.3,
+        "90th_pct": 0.6,
+        "95th_pct": 0.7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0,
+        "10th_pct": 0.1,
+        "mean": 0.4,
+        "median": 0.3,
+        "90th_pct": 0.6,
+        "95th_pct": 0.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 2.2,
+        "10th_pct": 2.6,
+        "mean": 4,
+        "median": 3.8,
+        "90th_pct": 6,
+        "95th_pct": 6.2
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 2.2,
+        "median": 1.7,
+        "90th_pct": 6.5,
+        "95th_pct": 6.5
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 83,
+        "median": 37,
+        "90th_pct": 185,
+        "95th_pct": 245
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 4663,
+        "median": 1346,
+        "90th_pct": 17561,
+        "95th_pct": 21647
+      }
+    }
+  },
+  {
+    "name": "Bananas",
+    "tags": ["bananas", "banana", "plantain", "plantains"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.3,
+        "mean": 1.9,
+        "median": 1.4,
+        "90th_pct": 3,
+        "95th_pct": 9.4
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.6,
+        "mean": 0.9,
+        "median": 0.8,
+        "90th_pct": 1.2,
+        "95th_pct": 1.3
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.6,
+        "mean": 0.9,
+        "median": 0.8,
+        "90th_pct": 1.2,
+        "95th_pct": 1.3
+      },
+      "acidifying_emissions": {
+        "5th_pct": 4.1,
+        "10th_pct": 4.5,
+        "mean": 6.4,
+        "median": 6.1,
+        "90th_pct": 8.6,
+        "95th_pct": 10
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 1.5,
+        "10th_pct": 1.7,
+        "mean": 3.3,
+        "median": 2.1,
+        "90th_pct": 5.8,
+        "95th_pct": 6.4
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 115,
+        "median": 1,
+        "90th_pct": 320,
+        "95th_pct": 376
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 1,
+        "mean": 662,
+        "median": 31,
+        "90th_pct": 1480,
+        "95th_pct": 4676
+      }
+    }
+  },
+  {
+    "name": "Apples",
+    "tags": ["apple", "apple juice", "apple puree", "apples"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 0.6,
+        "median": 0.5,
+        "90th_pct": 1,
+        "95th_pct": 1
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 0.4,
+        "median": 0.4,
+        "90th_pct": 0.6,
+        "95th_pct": 0.6
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 0.4,
+        "median": 0.4,
+        "90th_pct": 0.6,
+        "95th_pct": 0.6
+      },
+      "acidifying_emissions": {
+        "5th_pct": 1.8,
+        "10th_pct": 2.1,
+        "mean": 3.5,
+        "median": 4,
+        "90th_pct": 4.5,
+        "95th_pct": 4.6
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.4,
+        "10th_pct": 0.5,
+        "mean": 1.5,
+        "median": 2,
+        "90th_pct": 2,
+        "95th_pct": 2.1
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 1,
+        "mean": 180,
+        "median": 115,
+        "90th_pct": 585,
+        "95th_pct": 585
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 26,
+        "mean": 12949,
+        "median": 1025,
+        "90th_pct": 52972,
+        "95th_pct": 52972
+      }
+    }
+  },
+  {
+    "name": "Berries & Grapes",
+    "tags": [
+      "grapes",
+      "strawberries",
+      "raspberries",
+      "blueberries",
+      "blackberries",
+      "grape juice"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.3,
+        "mean": 2.4,
+        "median": 2.6,
+        "90th_pct": 6.9,
+        "95th_pct": 6.9
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.8,
+        "mean": 1.5,
+        "median": 1.4,
+        "90th_pct": 2.7,
+        "95th_pct": 2.9
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.8,
+        "mean": 1.5,
+        "median": 1.4,
+        "90th_pct": 2.7,
+        "95th_pct": 2.9
+      },
+      "acidifying_emissions": {
+        "5th_pct": 4.1,
+        "10th_pct": 4.8,
+        "mean": 12.3,
+        "median": 6.9,
+        "90th_pct": 38.7,
+        "95th_pct": 39.4
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.7,
+        "mean": 6.1,
+        "median": 1,
+        "90th_pct": 17.4,
+        "95th_pct": 17.4
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 134,
+        "10th_pct": 134,
+        "mean": 420,
+        "median": 404,
+        "90th_pct": 1027,
+        "95th_pct": 1027
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 325,
+        "10th_pct": 7867,
+        "mean": 21162,
+        "median": 16245,
+        "90th_pct": 43005,
+        "95th_pct": 43007
+      }
+    }
+  },
+  {
+    "name": "Wine",
+    "tags": ["wine"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.9,
+        "10th_pct": 0.9,
+        "mean": 1.8,
+        "median": 1.6,
+        "90th_pct": 2.8,
+        "95th_pct": 3.5
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.9,
+        "mean": 1.8,
+        "median": 1.6,
+        "90th_pct": 2.7,
+        "95th_pct": 4.7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.7,
+        "10th_pct": 0.8,
+        "mean": 1.8,
+        "median": 1.6,
+        "90th_pct": 2.7,
+        "95th_pct": 4.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 8.8,
+        "10th_pct": 9,
+        "mean": 12.8,
+        "median": 10.9,
+        "90th_pct": 23.9,
+        "95th_pct": 32
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.5,
+        "10th_pct": 2.2,
+        "mean": 4.6,
+        "median": 3.8,
+        "90th_pct": 10.3,
+        "95th_pct": 12.4
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 2,
+        "10th_pct": 2,
+        "mean": 79,
+        "median": 5,
+        "90th_pct": 328,
+        "95th_pct": 349
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 7,
+        "10th_pct": 29,
+        "mean": 1149,
+        "median": 60,
+        "90th_pct": 1739,
+        "95th_pct": 1865
+      }
+    }
+  },
+  {
+    "name": "Other Fruit",
+    "tags": [
+      "apricot",
+      "apricots",
+      "pineapple",
+      "pineapple",
+      "mango",
+      "papaya",
+      "peach",
+      "fig",
+      "avocado"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.2,
+        "10th_pct": 0.2,
+        "mean": 0.9,
+        "median": 0.9,
+        "90th_pct": 1.4,
+        "95th_pct": 1.9
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.4,
+        "mean": 1.1,
+        "median": 0.7,
+        "90th_pct": 2.9,
+        "95th_pct": 3
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.3,
+        "mean": 1.1,
+        "median": 0.7,
+        "90th_pct": 2.9,
+        "95th_pct": 2.9
+      },
+      "acidifying_emissions": {
+        "5th_pct": 3.2,
+        "10th_pct": 3.6,
+        "mean": 5.8,
+        "median": 5.4,
+        "90th_pct": 8.1,
+        "95th_pct": 9
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 0.8,
+        "10th_pct": 1,
+        "mean": 2.4,
+        "median": 2.1,
+        "90th_pct": 4.2,
+        "95th_pct": 5.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 154,
+        "median": 4,
+        "90th_pct": 701,
+        "95th_pct": 798
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 0,
+        "10th_pct": 0,
+        "mean": 9533,
+        "median": 5,
+        "90th_pct": 19158,
+        "95th_pct": 76052
+      }
+    }
+  },
+  {
+    "name": "Coffee",
+    "tags": ["coffee", "espresso"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 8.3,
+        "10th_pct": 8.4,
+        "mean": 21.6,
+        "median": 11.9,
+        "90th_pct": 40.3,
+        "95th_pct": 40.7
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 4.4,
+        "10th_pct": 5.2,
+        "mean": 28.5,
+        "median": 8.2,
+        "90th_pct": 84.9,
+        "95th_pct": 85.7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 4.5,
+        "10th_pct": 5.2,
+        "mean": 27.7,
+        "median": 8.2,
+        "90th_pct": 84,
+        "95th_pct": 84.8
+      },
+      "acidifying_emissions": {
+        "5th_pct": 52.1,
+        "10th_pct": 52.7,
+        "mean": 83.1,
+        "median": 87.2,
+        "90th_pct": 105.7,
+        "95th_pct": 106.4
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 40.6,
+        "10th_pct": 41.1,
+        "mean": 110.5,
+        "median": 49.9,
+        "90th_pct": 270.3,
+        "95th_pct": 272.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 10,
+        "10th_pct": 10,
+        "mean": 26,
+        "median": 33,
+        "90th_pct": 38,
+        "95th_pct": 39
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 8,
+        "10th_pct": 8,
+        "mean": 337,
+        "median": 341,
+        "90th_pct": 813,
+        "95th_pct": 819
+      }
+    }
+  },
+  {
+    "name": "Dark Chocolate",
+    "tags": ["chocolate", "dark chocolate", "cocoa powder"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 21.6,
+        "10th_pct": 34.7,
+        "mean": 69,
+        "median": 53.8,
+        "90th_pct": 123.3,
+        "95th_pct": 144.7
+      },
+      "ghg_emissions_1": {
+        "5th_pct": -4,
+        "10th_pct": -0.1,
+        "mean": 46.7,
+        "median": 5,
+        "90th_pct": 134.7,
+        "95th_pct": 257.5
+      },
+      "ghg_emissions_2": {
+        "5th_pct": -3.6,
+        "10th_pct": -0.1,
+        "mean": 46.3,
+        "median": 5,
+        "90th_pct": 132.8,
+        "95th_pct": 252.4
+      },
+      "acidifying_emissions": {
+        "5th_pct": 6,
+        "10th_pct": 6.4,
+        "mean": 46.3,
+        "median": 29,
+        "90th_pct": 123,
+        "95th_pct": 167.1
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 3.5,
+        "10th_pct": 4.5,
+        "mean": 87.1,
+        "median": 67.3,
+        "90th_pct": 237.5,
+        "95th_pct": 238.1
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 7,
+        "10th_pct": 7,
+        "mean": 541,
+        "median": 25,
+        "90th_pct": 68,
+        "95th_pct": 265
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 9,
+        "10th_pct": 73,
+        "mean": 2879,
+        "median": 220,
+        "90th_pct": 1623,
+        "95th_pct": 5914
+      }
+    }
+  },
+  {
+    "name": "Bovine Meat (beef herd)",
+    "tags": ["beef", "hamburger", "steak", "sirloin"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 70.4,
+        "10th_pct": 82.8,
+        "mean": 326.2,
+        "median": 170.4,
+        "90th_pct": 735.1,
+        "95th_pct": 910.1
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 37.6,
+        "10th_pct": 40.4,
+        "mean": 99.5,
+        "median": 60.4,
+        "90th_pct": 209.9,
+        "95th_pct": 269.2
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 30.8,
+        "10th_pct": 33,
+        "mean": 85.2,
+        "median": 51.7,
+        "90th_pct": 180,
+        "95th_pct": 242
+      },
+      "acidifying_emissions": {
+        "5th_pct": 59.8,
+        "10th_pct": 76.1,
+        "mean": 318.8,
+        "median": 270.9,
+        "90th_pct": 656.9,
+        "95th_pct": 683.5
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 101.8,
+        "10th_pct": 113.4,
+        "mean": 301.4,
+        "median": 320.7,
+        "90th_pct": 412.8,
+        "95th_pct": 657.9
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 216,
+        "10th_pct": 269,
+        "mean": 1451,
+        "median": 740,
+        "90th_pct": 2586,
+        "95th_pct": 5241
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 205,
+        "10th_pct": 242,
+        "mean": 34733,
+        "median": 441,
+        "90th_pct": 89872,
+        "95th_pct": 190796
+      }
+    }
+  },
+  {
+    "name": "Bovine Meat (dairy herd)",
+    "tags": ["dairy beef"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 12.3,
+        "10th_pct": 14.4,
+        "mean": 43.2,
+        "median": 25.9,
+        "90th_pct": 64.1,
+        "95th_pct": 106.4
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 14.9,
+        "10th_pct": 17.9,
+        "mean": 33.3,
+        "median": 34.1,
+        "90th_pct": 50.9,
+        "95th_pct": 56.7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 12.8,
+        "10th_pct": 15.8,
+        "mean": 28.8,
+        "median": 28.9,
+        "90th_pct": 45,
+        "95th_pct": 49.9
+      },
+      "acidifying_emissions": {
+        "5th_pct": 165.2,
+        "10th_pct": 219,
+        "mean": 343.6,
+        "median": 289.1,
+        "90th_pct": 497.2,
+        "95th_pct": 1099.2
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 79.8,
+        "10th_pct": 81.4,
+        "mean": 365.3,
+        "median": 140.9,
+        "90th_pct": 1515.7,
+        "95th_pct": 2509.4
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 188,
+        "10th_pct": 192,
+        "mean": 2714,
+        "median": 2614,
+        "90th_pct": 5799,
+        "95th_pct": 8744
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 42175,
+        "10th_pct": 46309,
+        "mean": 119805,
+        "median": 122177,
+        "90th_pct": 181963,
+        "95th_pct": 214221
+      }
+    }
+  },
+  {
+    "name": "Lamb & Mutton",
+    "tags": ["lamb", "mutton"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 47.9,
+        "10th_pct": 60.1,
+        "mean": 369.8,
+        "median": 127.4,
+        "90th_pct": 442.3,
+        "95th_pct": 724.7
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 23.7,
+        "10th_pct": 24.5,
+        "mean": 39.7,
+        "median": 40.6,
+        "90th_pct": 54.4,
+        "95th_pct": 60.2
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 20.5,
+        "10th_pct": 21.3,
+        "mean": 32.7,
+        "median": 33,
+        "90th_pct": 43.2,
+        "95th_pct": 50.5
+      },
+      "acidifying_emissions": {
+        "5th_pct": 79.2,
+        "10th_pct": 81.8,
+        "mean": 139,
+        "median": 135.2,
+        "90th_pct": 149.8,
+        "95th_pct": 273.6
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 22,
+        "10th_pct": 24.6,
+        "mean": 97.1,
+        "median": 101.9,
+        "90th_pct": 128.7,
+        "95th_pct": 133.4
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 88,
+        "10th_pct": 98,
+        "mean": 1803,
+        "median": 461,
+        "90th_pct": 7133,
+        "95th_pct": 7826
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 259,
+        "10th_pct": 259,
+        "mean": 141925,
+        "median": 259,
+        "90th_pct": 540906,
+        "95th_pct": 595278
+      }
+    }
+  },
+  {
+    "name": "Pig Meat",
+    "tags": ["pork", "pork belly"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 7.4,
+        "10th_pct": 7.8,
+        "mean": 17.4,
+        "median": 13.4,
+        "90th_pct": 31.1,
+        "95th_pct": 34.1
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 6.9,
+        "10th_pct": 7.4,
+        "mean": 12.3,
+        "median": 10.6,
+        "90th_pct": 22.3,
+        "95th_pct": 23.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 6.6,
+        "10th_pct": 7,
+        "mean": 11.5,
+        "median": 9.8,
+        "90th_pct": 21.4,
+        "95th_pct": 23
+      },
+      "acidifying_emissions": {
+        "5th_pct": 63.2,
+        "10th_pct": 69,
+        "mean": 142.7,
+        "median": 114.8,
+        "90th_pct": 434.1,
+        "95th_pct": 469
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 29.5,
+        "10th_pct": 31.6,
+        "mean": 76.4,
+        "median": 53.5,
+        "90th_pct": 219.7,
+        "95th_pct": 237.6
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 83,
+        "10th_pct": 88,
+        "mean": 1796,
+        "median": 1810,
+        "90th_pct": 3315,
+        "95th_pct": 3556
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 51,
+        "10th_pct": 54,
+        "mean": 66867,
+        "median": 54243,
+        "90th_pct": 134395,
+        "95th_pct": 152330
+      }
+    }
+  },
+  {
+    "name": "Poultry Meat",
+    "tags": ["chicken", "poultry", "turkey"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 6.5,
+        "10th_pct": 6.7,
+        "mean": 12.2,
+        "median": 11,
+        "90th_pct": 16,
+        "95th_pct": 20.4
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 4,
+        "10th_pct": 4.2,
+        "mean": 9.9,
+        "median": 7.5,
+        "90th_pct": 20.1,
+        "95th_pct": 20.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 3.8,
+        "10th_pct": 4.1,
+        "mean": 9.8,
+        "median": 7.8,
+        "90th_pct": 19.9,
+        "95th_pct": 20.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 39.9,
+        "10th_pct": 43.1,
+        "mean": 102.4,
+        "median": 64.7,
+        "90th_pct": 192.8,
+        "95th_pct": 197.1
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 22.7,
+        "10th_pct": 25,
+        "mean": 48.7,
+        "median": 34.5,
+        "90th_pct": 101.5,
+        "95th_pct": 101.5
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 19,
+        "10th_pct": 19,
+        "mean": 660,
+        "median": 370,
+        "90th_pct": 1662,
+        "95th_pct": 1694
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 21,
+        "10th_pct": 21,
+        "mean": 14178,
+        "median": 334,
+        "90th_pct": 49727,
+        "95th_pct": 66045
+      }
+    }
+  },
+  {
+    "name": "Milk",
+    "tags": [
+      "milk",
+      "pasteurized milk",
+      "cream",
+      "evaporated milk",
+      "skim milk",
+      "whole milk",
+      "fat free milk",
+      "milk fat",
+      "nonfat milk"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.8,
+        "10th_pct": 1.1,
+        "mean": 9,
+        "median": 2.1,
+        "90th_pct": 9.3,
+        "95th_pct": 32.2
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 1.5,
+        "10th_pct": 1.7,
+        "mean": 3.2,
+        "median": 2.7,
+        "90th_pct": 4.8,
+        "95th_pct": 7
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 1.3,
+        "10th_pct": 1.5,
+        "mean": 2.8,
+        "median": 2.3,
+        "90th_pct": 4.5,
+        "95th_pct": 7.1
+      },
+      "acidifying_emissions": {
+        "5th_pct": 6.6,
+        "10th_pct": 8,
+        "mean": 20,
+        "median": 20.6,
+        "90th_pct": 31.8,
+        "95th_pct": 35.2
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 2.9,
+        "10th_pct": 3,
+        "mean": 10.7,
+        "median": 10.7,
+        "90th_pct": 18.6,
+        "95th_pct": 21.2
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 19,
+        "10th_pct": 19,
+        "mean": 628,
+        "median": 197,
+        "90th_pct": 2593,
+        "95th_pct": 2664
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 201,
+        "10th_pct": 208,
+        "mean": 19786,
+        "median": 9776,
+        "90th_pct": 79193,
+        "95th_pct": 81421
+      }
+    }
+  },
+  {
+    "name": "Cheese",
+    "tags": [
+      "cheese",
+      "parmesan cheese",
+      "swiss cheese",
+      "american cheese",
+      "cheddar cheese",
+      "provolone cheese",
+      "mozzarella",
+      "mozzarella cheese",
+      "reduced fat mozzarella cheese",
+      "reduced fat parmesan cheese",
+      "reduced fat swiss cheese",
+      "reduced fat cheddar cheese",
+      "reduced fat provolone cheese"
+    ],
+    "stats": {
+      "land_use": {
+        "5th_pct": 7.9,
+        "10th_pct": 9.6,
+        "mean": 87.8,
+        "median": 20.2,
+        "90th_pct": 239.2,
+        "95th_pct": 323.5
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 10.2,
+        "10th_pct": 10.9,
+        "mean": 23.9,
+        "median": 18.6,
+        "90th_pct": 39.3,
+        "95th_pct": 58.8
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 8.5,
+        "10th_pct": 9.4,
+        "mean": 21.4,
+        "median": 16.2,
+        "90th_pct": 36.6,
+        "95th_pct": 57.4
+      },
+      "acidifying_emissions": {
+        "5th_pct": 45.6,
+        "10th_pct": 57.6,
+        "mean": 165.5,
+        "median": 173,
+        "90th_pct": 267.2,
+        "95th_pct": 304.8
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 26.3,
+        "10th_pct": 29.5,
+        "mean": 98.4,
+        "median": 99.5,
+        "90th_pct": 167.9,
+        "95th_pct": 192.3
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 158,
+        "10th_pct": 178,
+        "mean": 5605,
+        "median": 1559,
+        "90th_pct": 23449,
+        "95th_pct": 25756
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 1738,
+        "10th_pct": 1930,
+        "mean": 180851,
+        "median": 80463,
+        "90th_pct": 718942,
+        "95th_pct": 790842
+      }
+    }
+  },
+  {
+    "name": "Eggs",
+    "tags": ["eggs", "egg whites", "egg yolks"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 4.3,
+        "10th_pct": 4.4,
+        "mean": 6.3,
+        "median": 5.7,
+        "90th_pct": 8.8,
+        "95th_pct": 8.8
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 2.9,
+        "10th_pct": 2.9,
+        "mean": 4.7,
+        "median": 4.2,
+        "90th_pct": 8.4,
+        "95th_pct": 8.5
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 2.8,
+        "10th_pct": 2.9,
+        "mean": 4.6,
+        "median": 4.2,
+        "90th_pct": 8.3,
+        "95th_pct": 8.5
+      },
+      "acidifying_emissions": {
+        "5th_pct": 20.3,
+        "10th_pct": 21.4,
+        "mean": 53.7,
+        "median": 54.2,
+        "90th_pct": 78.1,
+        "95th_pct": 78.3
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 12,
+        "10th_pct": 14.3,
+        "mean": 21.8,
+        "median": 21.3,
+        "90th_pct": 31.6,
+        "95th_pct": 33.6
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 139,
+        "10th_pct": 140,
+        "mean": 578,
+        "median": 633,
+        "90th_pct": 965,
+        "95th_pct": 1033
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 410,
+        "10th_pct": 413,
+        "mean": 17983,
+        "median": 18621,
+        "90th_pct": 36532,
+        "95th_pct": 38759
+      }
+    }
+  },
+  {
+    "name": "Fish (farmed)",
+    "tags": ["tuna", "cod", "haddock", "salmon", "monkfish", "trout"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.3,
+        "10th_pct": 0.8,
+        "mean": 8.4,
+        "median": 5.6,
+        "90th_pct": 10.5,
+        "95th_pct": 26.3
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 5.4,
+        "10th_pct": 5.7,
+        "mean": 13.6,
+        "median": 7.9,
+        "90th_pct": 26.5,
+        "95th_pct": 32.6
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 5.4,
+        "10th_pct": 5.6,
+        "mean": 12.5,
+        "median": 7.6,
+        "90th_pct": 25,
+        "95th_pct": 30.7
+      },
+      "acidifying_emissions": {
+        "5th_pct": 34.7,
+        "10th_pct": 34.8,
+        "mean": 65.9,
+        "median": 40.2,
+        "90th_pct": 108.8,
+        "95th_pct": 193.2
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 58.3,
+        "10th_pct": 70.8,
+        "mean": 235.1,
+        "median": 243.6,
+        "90th_pct": 365.7,
+        "95th_pct": 420.9
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 604,
+        "10th_pct": 1117,
+        "mean": 3691,
+        "median": 1581,
+        "90th_pct": 10473,
+        "95th_pct": 12190
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 5511,
+        "10th_pct": 5601,
+        "mean": 41572,
+        "median": 8483,
+        "90th_pct": 122598,
+        "95th_pct": 133853
+      }
+    }
+  },
+  {
+    "name": "Crustaceans (farmed)",
+    "tags": ["shrimp", "lobster", "crab"],
+    "stats": {
+      "land_use": {
+        "5th_pct": 0.6,
+        "10th_pct": 0.6,
+        "mean": 3,
+        "median": 0.8,
+        "90th_pct": 5.2,
+        "95th_pct": 5.2
+      },
+      "ghg_emissions_1": {
+        "5th_pct": 7.4,
+        "10th_pct": 8,
+        "mean": 26.9,
+        "median": 14.7,
+        "90th_pct": 52.1,
+        "95th_pct": 115.1
+      },
+      "ghg_emissions_2": {
+        "5th_pct": 7.4,
+        "10th_pct": 8,
+        "mean": 24,
+        "median": 14.7,
+        "90th_pct": 46.9,
+        "95th_pct": 96.6
+      },
+      "acidifying_emissions": {
+        "5th_pct": 49,
+        "10th_pct": 57.6,
+        "mean": 133.1,
+        "median": 107.1,
+        "90th_pct": 307.2,
+        "95th_pct": 393.5
+      },
+      "eutrophying_emissions": {
+        "5th_pct": 61.9,
+        "10th_pct": 70.9,
+        "mean": 227.2,
+        "median": 141.3,
+        "90th_pct": 703.8,
+        "95th_pct": 900.4
+      },
+      "freshwater_withdrawals": {
+        "5th_pct": 654,
+        "10th_pct": 663,
+        "mean": 3515,
+        "median": 1208,
+        "90th_pct": 4388,
+        "95th_pct": 28905
+      },
+      "stress_weighted_water_use": {
+        "5th_pct": 22998,
+        "10th_pct": 23508,
+        "mean": 127259,
+        "median": 48738,
+        "90th_pct": 134117,
+        "95th_pct": 984747
+      }
+    }
+  }
+]
