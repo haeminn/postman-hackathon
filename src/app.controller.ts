@@ -23,6 +23,10 @@ export class AppController {
 
     const {
       ingredients,
+      brands,
+      brand_owner: brandOwner,
+      categories,
+      serving_size: servingSize,
       product_name: productName,
       serving_quantity: servingsGrams,
       known_ingredients_n: numIngredients,
@@ -40,10 +44,10 @@ export class AppController {
       const { id, percent_estimate, text } = ingredient;
       const functionUnit = (servingKilograms * percent_estimate) / 100;
 
-      const match = data.find((d) => d.tags.includes(text));
+      const match = data.find((d) => d.tags.includes(text.toLowerCase()));
 
       let stats = {};
-      if (match && match.stats) {
+      if (match) {
         stats = mapValues(match.stats, (stat, key) => {
           globalStats[key] = globalStats[key] || {};
           return mapValues(stat, (s, k) => {
@@ -66,6 +70,10 @@ export class AppController {
     // end
 
     return {
+      brands,
+      brandOwner,
+      categories,
+      servingSize,
       productName,
       ingredients: newIngredients,
       numIngredients,

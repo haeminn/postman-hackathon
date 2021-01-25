@@ -1,32 +1,76 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+# Food eco stats API
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Get metrics on the environmental impact of food products.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Background
 
-## Description
+It's no secret that our climate is changing, and food production is one of the biggest contributors. From greenhouse gas emissions, to water usage, to fertilizer run-off into water sources, agriculture and livestock farming play a major role in our health and climate.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Check out these statistics from [Our World in Data](https://ourworldindata.org/environmental-impacts-of-food)
+
+> - Food accounts for over a quarter (26%) of global greenhouse gas emissions<sup>1</sup>;
+> - Half of the world’s habitable (ice- and desert-free) land is used for agriculture;
+> - 70% of global freshwater withdrawals are used for agriculture<sup>2</sup>;
+> - 78% of global ocean and freshwater eutrophication (the pollution of waterways with nutrient-rich pollutants) is caused by agriculture<sup>3</sup>;
+> - 94% of mammal biomass (excluding humans) is livestock. This means livestock outweigh wild mammals by a factor of 15-to-1.<sup>4</sup> Of the 28,000 species evaluated to be threatened with extinction on the IUCN Red List, agriculture and aquaculture is listed as a threat for 24,000 of them.<sup>5</sup>
+
+Source: [Our World in Data](https://ourworldindata.org/environmental-impacts-of-food)
+
+## Endpoints
+
+### `GET /:productISBN`
+
+Returns stats on a product by ISBN (barcode)
+
+## Example Payload
+
+```
+{
+  "brandOwner": "Nestle USA Inc.",
+  "brands": "Hot Pockets",
+  "containsPalmOil": false,
+  "mayContainPalmOil": false,
+  "numIngredients": 84,
+  "productName": "Four cheese pizza with parmesan, cheddar & reduced fat provolone & mozzarella cheeses in a garlic buttery crust sandwiches",
+  "servingKilograms": 0.12,
+  "stats": {
+    ...
+    "ghg_emissions": {
+      "mean": 0.7055285098522162,
+      "median": 0.5320506804187187
+    },
+    "land_use": {
+      "mean": 2.552801114532017,
+      "median": 0.7542392580049255
+    },
+    "stress_weighted_water_use": {
+      "mean": 7378.098337130538,
+      "median": 3123.8892692118206
+    }
+    ...
+  },
+  "ingredients": [
+    {
+      "functionUnit": 0.0548689655172414,
+      "id": "en:flour",
+      "stats": {
+        ...
+        "ghg_emissions": {
+          "mean": 0.08779034482758624,
+          "median": 0.07132965517241383
+        }
+        ...
+      },
+      "text": "flour"
+    }
+    ...
+  ]
+}
+```
 
 ## Installation
+
+This API is built with [Nest](https://github.com/nestjs/nest), a Node.js framework for building API's. Please refer to their docs for more information.
 
 ```bash
 $ npm install
@@ -57,17 +101,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
