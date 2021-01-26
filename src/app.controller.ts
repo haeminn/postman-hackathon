@@ -8,13 +8,14 @@ import {
 import { AppService } from './app.service';
 import { mapValues } from 'lodash';
 import * as data from './data.json';
+import { Product } from './product.interface';
 
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get(':id')
-  async getProduct(@Param('id') id: string) {
+  async getProduct(@Param('id') id: string): Promise<Product> {
     const product = await this.appService.getProduct(id);
 
     if (!product) {
@@ -40,11 +41,11 @@ export class AppController {
 
     // Getting ecological impact stats
     let globalStats = {};
-    const newIngredients = ingredients.map((ingredient) => {
+    const newIngredients = (ingredients || []).map((ingredient) => {
       const { id, percent_estimate, text } = ingredient;
       const functionUnit = (servingKilograms * percent_estimate) / 100;
 
-      const match = data.find((d) => d.tags.includes(text.toLowerCase()));
+      const match = data.find((d) => d.tags.includes((text || '').toLowerCase()));
 
       let stats = {};
       if (match) {
@@ -67,7 +68,6 @@ export class AppController {
         stats
       };
     });
-    // end
 
     return {
       brands,

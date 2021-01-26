@@ -1,22 +1,39 @@
 import { Test, TestingModule } from '@nestjs/testing';
+import { HttpModule } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
+const productId = '6181459806888';
+
 describe('AppController', () => {
   let appController: AppController;
+  let appService: AppService;
 
   beforeEach(async () => {
-    const app: TestingModule = await Test.createTestingModule({
+    const module: TestingModule = await Test.createTestingModule({
       controllers: [AppController],
       providers: [AppService],
+      imports: [HttpModule]
     }).compile();
 
-    appController = app.get<AppController>(AppController);
+    appController = module.get<AppController>(AppController);
+    appService = module.get<AppService>(AppService);
   });
 
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+  describe('getProduct', () => {
+    it('should get product stats', async () => {
+      const result = {
+        "brands": "Trader Joe's",
+        "containsPalmOil": false,
+        "mayContainPalmOil": false
+      };
+
+      jest.spyOn(appService, 'getProduct').mockImplementation(() => result as any);
+      const res = await appController.getProduct(productId);
+      console.log(res)
+      expect(res.brands).toBe('Trader Joe\'s');
+      expect(res.containsPalmOil).toBe(false);
+      expect(res.mayContainPalmOil).toBe(false);
     });
   });
 });
