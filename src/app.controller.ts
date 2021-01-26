@@ -1,9 +1,11 @@
 import {
+  Body,
   Controller,
   Get,
   HttpException,
   HttpStatus,
-  Param
+  Param,
+  Post
 } from '@nestjs/common';
 import { AppService } from './app.service';
 import { mapValues } from 'lodash';
@@ -13,32 +15,7 @@ import * as data from './data.json';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get(':id')
-  async getProduct(@Param('id') id: string) {
-    const product = await this.appService.getProduct(id);
-
-    if (!product) {
-      throw new HttpException('Product not found', HttpStatus.NOT_FOUND);
-    }
-
-    const {
-      ingredients,
-      brands,
-      brand_owner: brandOwner,
-      categories,
-      serving_size: servingSize,
-      product_name: productName,
-      serving_quantity: servingsGrams,
-      known_ingredients_n: numIngredients,
-      ingredients_from_palm_oil_n: numPalmOilIngredients,
-      ingredients_from_or_that_may_be_from_palm_oil_n: numPossiblePalmOilIngredients
-    } = product;
-
-    const servingKilograms = servingsGrams / 1000;
-    const containsPalmOil = !!numPalmOilIngredients;
-    const mayContainPalmOil = !!numPossiblePalmOilIngredients;
-
-    // Getting ecological impact stats
+  getStatsByIngredients(ingredients: any[], servingKilograms: number) {
     let globalStats = {};
     const newIngredients = ingredients.map((ingredient) => {
       const { id, percent_estimate, text } = ingredient;
@@ -67,7 +44,56 @@ export class AppController {
         stats
       };
     });
-    // end
+
+    return { globalStats, newIngredients };
+  }
+
+  @Get('/data')
+  async getData() {
+    return data;
+  }
+
+  @Post('/ingredients')
+  async getIngredients(@Body() ingredients: string[]) {
+    return ingredients.map((ingredient) => {
+      const match = data.find((d) => d.tags.includes(ingredient.toLowerCase()));
+
+      return {
+        name: ingredient,
+        stats: match ? match.stats : null
+      };
+    });
+  }
+
+  @Get('/product/:id')
+  async getProduct(@Param('id') id: string) {
+    const product = await this.appService.getProduct(id);
+
+    if (!product) {
+      throw new HttpException('Product not found', HttpStatus.NOT_FOUND);
+    }
+
+    const {
+      ingredients,
+      brands,
+      brand_owner: brandOwner,
+      categories,
+      serving_size: servingSize,
+      product_name: productName,
+      serving_quantity: servingsGrams,
+      known_ingredients_n: numIngredients,
+      ingredients_from_palm_oil_n: numPalmOilIngredients,
+      ingredients_from_or_that_may_be_from_palm_oil_n: numPossiblePalmOilIngredients
+    } = product;
+
+    const servingKilograms = servingsGrams / 1000;
+    const containsPalmOil = !!numPalmOilIngredients;
+    const mayContainPalmOil = !!numPossiblePalmOilIngredients;
+
+    const { globalStats, newIngredients } = this.getStatsByIngredients(
+      ingredients,
+      servingKilograms
+    );
 
     return {
       brands,

@@ -16,6 +16,10 @@ Check out these statistics from [Our World in Data](https://ourworldindata.org/e
 
 Source: [Our World in Data](https://ourworldindata.org/environmental-impacts-of-food)
 
+## Raw data
+
+Stats per ingredient: [Google Sheet](https://docs.google.com/spreadsheets/d/1LymaSw6AIP2ryTqNAxl1S0cOShONy4sgGOeIHLykBMw/edit?usp=sharing)
+
 ## Endpoints
 
 ### `GET /:productISBN`
